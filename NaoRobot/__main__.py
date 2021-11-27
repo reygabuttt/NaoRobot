@@ -103,7 +103,7 @@ HELP_STRINGS = """
 nao_IMG = "https://telegra.ph/file/9c6e5b30022565cbe9f4a.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @skyzuX \
+ You can support the project by contacting @Rorflame \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -221,7 +221,7 @@ def start(update: Update, context: CallbackContext):
                                 {
                                     InlineKeyboardButton(
                                         text="sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ​",
-                                        url="https://t.me/skyzusupport",
+                                        url="https://t.me/SpotifySupport_id",
                                     )
                                 }
                             ]
@@ -373,9 +373,9 @@ def nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Source", url="https://github.com/Skyzu/NaoRobot"
+                    InlineKeyboardButton(text="Source", url="https://github.com/Abror0110/NaoRobot"
                     ),
-                    InlineKeyboardButton(text="Dev", url="https://t.me/skyzu")
+                    InlineKeyboardButton(text="Dev", url="https://t.me/Rorflame")
                  ],
                  [
                     InlineKeyboardButton(text="🔙 Back", callback_data="nao_back")
@@ -399,7 +399,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi I'm *NaoRobot*
-                 \nHere is the [Source Code](https://github.com/Skyzu/NaoRobot) .""",
+                 \nHere is the [Source Code](https://github.com/Abror0110/NaoRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
