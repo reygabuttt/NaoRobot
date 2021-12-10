@@ -77,7 +77,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 [⚡](https://telegra.ph/file/a462a2c97a7bf40ed9cf3.jpg)  ʜᴇʟʟᴏ  ᴍʏ ɴᴀᴍᴇ ɪ𝘀 ᴛᴏᴅᴏʀᴏᴋɪ ʀᴏʙᴏᴛ
 ɪ'ᴍ ᴀ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇ ʙᴏᴛ ꜰᴏʀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀ𝘀ɪʟʏ!
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ReyyZ](http://t.me/CallmeReyyz) 
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ReyyZ](http://t.me/ryinaja) 
 """
 
 buttons = [
@@ -103,7 +103,7 @@ HELP_STRINGS = """
 nao_IMG = "https://telegra.ph/file/da28aba60f09cb1903453.jpg"
 
 DONATE_STRING = """Heyo, glad to hear you want to donate!
- You can support the project by contacting @CallmeReyyz \
+ You can support the project by contacting @ryinaja \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -375,7 +375,7 @@ def nao_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="Warung", url="https://t.me/wibucarijodoh"
                     ),
-                    InlineKeyboardButton(text="ᴅᴇᴠ🕵️", url="https://t.me/CallmeReyyz")
+                    InlineKeyboardButton(text="ᴅᴇᴠ🕵️", url="https://t.me/ryinaja")
                  ],
                  [
                     InlineKeyboardButton(text="🔙 Back", callback_data="nao_back")
